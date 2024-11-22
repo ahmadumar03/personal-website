@@ -188,7 +188,7 @@
     margin: 0 auto;
     justify-content: center;
     max-width: 40%;
-    max-height: 200px;
+    height: 200px;
     grid-row-start: 3;
     grid-column-start: 1;
 }
@@ -198,7 +198,7 @@
     margin: 0 auto;
     justify-content: center;
     max-width: 40%;
-    max-height: 200px;
+    height: 200px;
     grid-row-start: 3;
     grid-column-start: 2;
 }
