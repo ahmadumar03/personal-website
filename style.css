@@ -85,7 +85,7 @@
     margin: 0 auto;
     justify-content: center;
     max-width: 40%;
-    height: 200px;
+    max-height: 100px;
     grid-column-start: 1;
 }
 
@@ -94,7 +94,7 @@
     margin: 0 auto;
     justify-content: center;
     max-width: 40%;
-    height: 200px;
+    max-height: 100px;
     grid-column-start: 2;
 }
     
