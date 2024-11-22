@@ -79,6 +79,25 @@
     border-radius: 50%;
     grid-area: 4 / 1 / 5 / 1;
 
+
+.img7 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 40%;
+    height: 200px;
+    grid-area: 2 / 2 / 2 / 2;
+}
+
+.img8 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 40%;
+    height: 200px;
+    grid-area: 2 / 2 / 2 / 2;
+}
+    
 }
 .role1 {
     margin: 0px;
