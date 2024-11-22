@@ -81,12 +81,18 @@
 
 
 .img7 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
     max-width: 40%;
     height: 200px;
     grid-column-start: 1;
 }
 
 .img8 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
     max-width: 40%;
     height: 200px;
     grid-column-start: 2;
@@ -174,6 +180,7 @@
     display: grid;
     margin-top: 50px;
     margin-bottom: 50px;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
 }
 
