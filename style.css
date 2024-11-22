@@ -78,25 +78,6 @@
     justify-content: center;
     border-radius: 50%;
     grid-area: 4 / 1 / 5 / 1;
-
-
-.img7 {
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    max-width: 40%;
-    max-height: 10px;
-    grid-column-start: 1;
-}
-
-.img8 {
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    max-width: 40%;
-    max-height: 10px;
-    grid-column-start: 2;
-}
     
 }
 .role1 {
@@ -178,10 +159,9 @@
 
 .projects {
     display: grid;
-    height: 200px;
     margin-top: 50px;
     margin-bottom: 50px;
-    grid-template-rows: 1fr;
+    grid-template-rows: 50px 50px 200px;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -189,13 +169,34 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    grid-row-start: 1;
 }
 
 .projtext {
     display: flex;
     align-items: center;
+    justify-content: center;   
+    grid-row-start: 2;
+}
+
+.img7 {
+    display: flex;
+    margin: 0 auto;
     justify-content: center;
-    
+    max-width: 40%;
+    max-height: 10px;
+    grid-row-start: 3;
+    grid-column-start: 1;
+}
+
+.img8 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 40%;
+    max-height: 10px;
+    grid-row-start: 3;
+    grid-column-start: 2;
 }
 
 .aboutme {
@@ -206,7 +207,6 @@
 }
 
 .about {
-    
     display: flex;
     align-items: center;
     justify-content: center;
