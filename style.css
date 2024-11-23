@@ -161,7 +161,7 @@
     display: grid;
     margin-top: 50px;
     margin-bottom: 50px;
-    grid-template-rows: 50px 50px 200px;
+    grid-template-rows: 50px 50px 400px;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -188,7 +188,7 @@
     margin: 0 auto;
     justify-content: center;
     max-width: 40%;
-    height: 200px;
+    height: 400px;
     grid-row-start: 3;
     grid-column-start: 1;
 }
@@ -198,7 +198,7 @@
     margin: 0 auto;
     justify-content: center;
     max-width: 40%;
-    height: 200px;
+    height: 400px;
     grid-row-start: 3;
     grid-column-start: 2;
 }
